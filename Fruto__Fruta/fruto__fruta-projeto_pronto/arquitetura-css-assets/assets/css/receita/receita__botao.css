@@ -1,0 +1,14 @@
+.receita__botao  {
+    background: #8d0606;
+    border: none; /* retira a borda do botão */
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 1rem; /* espaçamento interno do botão */
+    transition: all .1s ease-in-out; /* tempo da animacao quando passa o botão sobre o mouse */
+}
+
+.receita__botao:hover {
+    cursor: pointer; /* comando que faz com que o botão do mouse vire uma mãozinha */
+    background: #620404;
+}
+
